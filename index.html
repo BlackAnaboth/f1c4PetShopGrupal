@@ -7,20 +7,28 @@
     <title>Petshop Equipo 11</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <header>
-      <section>
-        <article class="cabecera-black">
-          <span>Grandes ofertas en comederos</span>
-          <span>
-            >Español <img src="img/down.png" alt="flecha"
-          /></span>
-          <span
-            >ARG$ <img src="img/down.png" alt="flecha"
-          /></span>
-        </article>
+      <section id="barra-superior">
+        <span>Grandes ofertas en comederos</span>
+        <section id="menu-regional">
+            <span>
+                <select name="idioma" id="idioma">
+                    <option value="es">Español</option>
+                    <option value="en">Ingles</option>
+                    <option value="pr">Portugues</option>
+                </select>
+                <select name="Moneda" id="moneda">
+                    <option value="ARS">AR$</option>
+                    <option value="USD">U$S</option>
+                    <option value="BRL">BR$</option>
+                </select>
+            </span>
+        </section>  
       </section>
 
       <section>
