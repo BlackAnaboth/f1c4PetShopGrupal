@@ -7,6 +7,9 @@ body {
     margin: auto;
     font-family: 'Roboto', sans-serif;
 }
+a{
+    text-decoration:none;
+}
 /* BARRA SUPERIOR */
 section#barra-superior {
     background-color: black;
@@ -37,7 +40,6 @@ nav img {
     margin: 19px 0 20px 40px; 
 }
 nav a {
-    text-decoration:none;
     color: #f2f2f2;
     margin: 0px 36px 0px 1px;
 }
@@ -49,3 +51,15 @@ div#menu-principal{
     float: right;
     margin: 20px 40px 23px 40px;
 }
+/* FIN BARRA DE NAVEGACIÓN */
+/* BANNER PUBLICITARIO */
+section#banner{
+    background-image: url(/img/bowl-and-pet-daities-on-green-background\ 1.png);
+    height: 409px;
+    display: block;
+}
+section#banner article{
+    float: right;
+}
+
+/* FIN BANNER PUBLICITARIO */
