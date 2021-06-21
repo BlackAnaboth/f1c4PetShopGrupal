@@ -45,7 +45,7 @@ nav a {
 }
 nav i {
     padding-right: 3px;
-    color: #fffffff;
+    color: #ffffff;
 }
 div#menu-principal{
     float: right;
@@ -63,3 +63,171 @@ section#banner article{
 }
 
 /* FIN BANNER PUBLICITARIO */
+/* PRODUCTOS DESTACADOS */
+h1, h2{
+    color: #3C2313;
+    padding: 10px;
+}
+
+#featured{
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#linkProducts{
+    padding: 10px;
+    width: 75px;
+    height: 18px;
+    left: 489px;
+    top: 653px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+}
+
+#product{
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 311px;
+    height: 350px;
+
+    padding: 15.1px;
+    background: #FBFAF6;
+}
+
+#description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+}
+
+#price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+}
+
+#contact{
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+input{
+    margin: 5px;
+    width: 340px;
+    height: 40px;
+    left: calc(50% - 340px/2 + 1px);
+    top: calc(50% - 40px/2 + 275.5px);
+    background: #3C2313;
+    border-radius: 15px;
+}
+
+::placeholder{
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    padding-left: 14.11px;
+}
+
+button{
+    width: 63px;
+    height: 19px;
+    left: calc(50% - 63px/2 - 53.5px);
+    top: calc(50% - 19px/2 + 454px);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.reset{
+    width: 110px;
+    height: 34px;
+    left: calc(50% - 110px/2 - 52px);
+    top: calc(50% - 34px/2 + 453.5px);
+    background: #8A8787;
+    border-radius: 15px;
+}
+
+.send{
+    width: 110px;
+    height: 34px;
+    left: calc(50% - 110px/2 + 64px);
+    top: calc(50% - 34px/2 + 453.5px);
+    background: #F0A83E;
+    border-radius: 15px;
+    border-color: #F0A83E;
+}
+/* FIN PRODUCTOS DESTACADOS */
+/* FOOTER */
+
+#suscription{
+    background-color: #F0A83E;
+    padding: 5px;
+}
+
+#letterFoot{
+    padding: 5px;
+    left: calc(50% - 288px/2 - 295px);
+    top: calc(50% - 23px/2 + 577px);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+input.email{
+    margin-left: 250px;
+    width: 271px;
+    height: 40px;
+    left: calc(50% - 271px/2 + 254.5px);
+    top: calc(50% - 40px/2 + 575.5px);
+    
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.email::placeholder{
+    color: black;
+    font-size: 9px;
+    padding-left: 15px;
+}
+
+button.suscrib{
+    width: 70px;
+    height: 34px;
+    left: calc(50% - 70px/2 + 430px);
+    top: calc(50% - 34px/2 + 575.5px);
+
+    background: #3C2313;
+    border-radius: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+/* FIN FOOTER */
