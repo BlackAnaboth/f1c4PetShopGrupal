@@ -53,11 +53,64 @@ div#menu-principal{
 }
 /* FIN BARRA DE NAVEGACIÓN */
 /* BANNER PUBLICITARIO */
-section#banner{
+
+#pleasure{
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #3C2313;
+    background-color:blanchedalmond;
+    position:absolute;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#discount{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3C2313;
+    position:absolute;
+    top: 45%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#feeders{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    color: blanchedalmond;
+    text-align: center;
+    position: absolute;
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+    background: #F0A83E;
+    border-radius: 5px;
+    border: none;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+/*section#banner{
     background-image: url(/img/bowl-and-pet-daities-on-green-background\ 1.png);
     height: 409px;
     display: block;
-}
+}*/
 section#banner article{
     float: right;
 }
@@ -228,6 +281,56 @@ button.suscrib{
     font-size: 9px;
     line-height: 11px;
     color: #FFFFFF;
+}
+
+.refer{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.explain{
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+
+#information{
+    height: 284px;
+    background: #3C2313;
+    clear: both;
+}
+
+#logo{
+    float: right !important;
+    margin-top: 120px;
+}
+
+#relation{
+    padding: 10px 50px;
+}
+
+#relation img{
+    vertical-align: text-top;
+    float: left;
+    margin-right: 20px;
+}
+
+#relation div{
+    margin: 20px;
+    display: flow-root;
+}
+
+#ending{
+    background: #222;
+    color: #fff;
+    text-align:center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
 }
 
 /* FIN FOOTER */
