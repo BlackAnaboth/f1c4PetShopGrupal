@@ -54,12 +54,47 @@ div#menu-principal{
 /* FIN BARRA DE NAVEGACIÓN */
 /* BANNER PUBLICITARIO */
 section#banner{
+    position: absolute;
     background-image: url(/img/bowl-and-pet-daities-on-green-background\ 1.png);
     height: 409px;
-    display: block;
+    width: 1024px;
 }
 section#banner article{
     float: right;
+    margin: 156px 12px 0 0;
 }
-
+section#banner h2{
+    display: block;
+    background-color: #ffffff;
+    width: 355px;
+    height: 34px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+section#banner h3{
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 400;
+    text-align: center;
+}
+.boton{
+    color: #ffffff;
+    background-color: #F0A83E;
+    width: 141px;
+    height: 34px;
+    padding-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 400;
+    text-align: center;
+}
+.boton#boton-banner{
+    margin: auto;
+}
 /* FIN BANNER PUBLICITARIO */
