@@ -54,7 +54,7 @@ div#menu-principal{
 /* FIN BARRA DE NAVEGACIÓN */
 /* BANNER PUBLICITARIO */
 
-#pleasure{
+/* #pleasure{
     font-family: Roboto;
     font-size: 30px;
     font-style: normal;
@@ -104,20 +104,21 @@ div#menu-principal{
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
+} */
+
+#banner{
+    height: 408px;
+    position: relative;
 }
-
-/*section#banner{
-    background-image: url(/img/bowl-and-pet-daities-on-green-background\ 1.png);
-    height: 409px;
-    display: block;
-}*/
-
-section#banner article{
+#banner img{
+    position: absolute;
+}
+#banner article{
+    position: relative;
     float: right;
-    margin: 156px 12px 0 0;
+    margin: 156px 11px 107px 648px;
 }
-section#banner h2{
-    display: block;
+#banner h2{
     background-color: #ffffff;
     width: 355px;
     height: 34px;
@@ -126,16 +127,16 @@ section#banner h2{
     font-size: 30px;
     line-height: 35px;
     font-weight: 400;
-    text-align: center;
 }
-section#banner h3{
+#banner h3{
     padding: 10px 0 10px 0;
     font-size: 16px;
     line-height: 18.75px;
     font-weight: 400;
     text-align: center;
 }
-.boton{
+#banner a{
+    display: block;
     color: #ffffff;
     background-color: #F0A83E;
     width: 141px;
@@ -146,72 +147,64 @@ section#banner h3{
     line-height: 18.75px;
     font-weight: 400;
     text-align: center;
-}
-.boton#boton-banner{
     margin: auto;
 }
 /* FIN BANNER PUBLICITARIO */
 /* PRODUCTOS DESTACADOS */
-h1, h2{
-    color: #3C2313;
-    padding: 10px;
+#divisor{
+    font-size: 65px;
+    color: #F0A83E;
 }
-
+h1{
+    color: #3C2313;
+    padding: 10px 0 20px 0;
+    font-size: 40px;
+}
 #featured{
     background-color: white;
     text-align: center;
     padding-top: 15px;
+    margin-bottom: 40px;
 }
-
 #linkProducts{
     padding: 10px;
-    width: 75px;
-    height: 18px;
-    left: 489px;
-    top: 653px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
     line-height: 18px;
     color: #666666;
 }
-
-#product{
+#products{
     text-align: center;
-    position: relative;
-    float: left;
-    width: 311px;
-    height: 350px;
-
-    padding: 15.1px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 95px;
+}
+.product{
+    margin: 10px;
+    padding-bottom: 10px;
     background: #FBFAF6;
 }
-
-#description{
-    font-family: Roboto;
-    font-style: normal;
+.product-description{
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     color: #3C2313;
 }
-
-#price{
-    font-family: Roboto;
-    font-style: normal;
+.product-price{
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     color: #F0A83E;
 }
-
 #contact{
+    width: 100%;
     background-color: white;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 65px;
+    display: inline-block;
 }
-
+#contact h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
 input{
     margin: 5px;
     width: 340px;
@@ -220,6 +213,7 @@ input{
     top: calc(50% - 40px/2 + 275.5px);
     background: #3C2313;
     border-radius: 15px;
+    border-style: none;
 }
 
 ::placeholder{
@@ -236,13 +230,10 @@ button{
     height: 19px;
     left: calc(50% - 63px/2 - 53.5px);
     top: calc(50% - 19px/2 + 454px);
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     color: #ffffff;
+    border-style: none;
 }
 
 .reset{
@@ -252,6 +243,7 @@ button{
     top: calc(50% - 34px/2 + 453.5px);
     background: #8A8787;
     border-radius: 15px;
+    border-style: none;
 }
 
 .send{
@@ -262,29 +254,23 @@ button{
     background: #F0A83E;
     border-radius: 15px;
     border-color: #F0A83E;
+    border-style: none;
 }
 /* FIN PRODUCTOS DESTACADOS */
 /* FOOTER */
-
 #suscription{
     background-color: #F0A83E;
-    padding: 5px;
+    padding: 5px 20px;
+}
+#suscription img{
+    margin-bottom: auto;
 }
 
 #letterFoot{
-    padding: 5px;
-    left: calc(50% - 288px/2 - 295px);
-    top: calc(50% - 23px/2 + 577px);
-
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 23px;
-
     color: #FFFFFF;
 }
-
 input.email{
     margin-left: 250px;
     width: 271px;
@@ -295,19 +281,16 @@ input.email{
     background: #FFFFFF;
     border-radius: 15px;
 }
-
 .email::placeholder{
     color: black;
     font-size: 9px;
     padding-left: 15px;
 }
-
 button.suscrib{
     width: 70px;
     height: 34px;
     left: calc(50% - 70px/2 + 430px);
     top: calc(50% - 34px/2 + 575.5px);
-
     background: #3C2313;
     border-radius: 15px;
     font-family: Roboto;
@@ -317,7 +300,6 @@ button.suscrib{
     line-height: 11px;
     color: #FFFFFF;
 }
-
 .refer{
     color: #fff;
     font-weight: bold;
